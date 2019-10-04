@@ -209,15 +209,18 @@ p {
 /*ABOUT US PAGE STYLING*/
 
 .bottom-border{
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dashed black;
 }
 
 section{
-    padding: 20px;
+    padding: 20px ;
 }
 
-.about-text{
-    margin: 10px 0;
+.about-section{
+    margin-top: -30px;
+}
+.about-section .about-text{
+    margin: 0;
 }
 
 .about-columns-section{
@@ -231,8 +234,8 @@ section{
 
 .about-column{
     width: 49%;
-    margin-bottom: 20px;
-    padding: 50px 0;
+    margin: 0;
+    padding: 50px 0 30px;
 }
 
 .about-column img{
@@ -240,20 +243,31 @@ section{
 }
 
 .about-column h2{
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .about-text{
-   margin-bottom: 50px;
+   margin: 10px 0 40px;
 }
 
 .about-column a{
-    padding: 10px 20px;
-    border: 1px solid black;
+    padding: 7px 25px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
     border-radius: 5px;
 }
 
+.about-column a:hover{
+    color: white;
+    background-color: teal;
+    border: 2px solid white;
+}
 
+
+.about-together-section{
+    margin: 10px 0 20px 0;
+}
 
 /*FOOTER*/
 footer {
